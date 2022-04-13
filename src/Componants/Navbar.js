@@ -22,6 +22,9 @@ function Navbar(){
             <li className='nav-item'>
               <Link to='/products' className='nav-link'>Products</Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/todo' className='nav-link'>Todo</Link>
+            </li>
           </ul>
         </div>
       </nav>

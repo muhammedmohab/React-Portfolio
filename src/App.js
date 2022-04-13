@@ -7,6 +7,7 @@ import Error from './Componants/Error';
 import Navbar from './Componants/Navbar';
 import Product from './Componants/Product';
 import Products from './Componants/Products';
+import Todo from './Componants/Todo/Todo';
 
 function App() {
   const value = 20;
@@ -20,6 +21,7 @@ function App() {
           <Route path="product/:id" element={<Product />} />
           <Route path="counter" element={<Couter value={value} />} />
           <Route path="products" element={<Products />} />
+          <Route path="todo" element={<Todo />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
