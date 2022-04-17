@@ -25,6 +25,9 @@ function Navbar(){
             <li className='nav-item'>
               <Link to='/todo' className='nav-link'>Todo</Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/register' className='nav-link'>Register</Link>
+            </li>
           </ul>
         </div>
       </nav>
